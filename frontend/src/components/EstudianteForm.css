@@ -1,0 +1,32 @@
+.estudiante-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #004080;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #004080;
+}
+
+.estudiante-form input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #004080;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.estudiante-form button {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.estudiante-form button:hover {
+    background-color: #002060;
+}

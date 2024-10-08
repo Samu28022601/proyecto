@@ -1,0 +1,41 @@
+.estudiante-list {
+    width: 300px;
+    max-height: 80vh;
+    overflow-y: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #FFD700; /* Borde dorado */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #004080; /* Color azul oscuro UMG */
+}
+
+.estudiante {
+    padding: 10px;
+    border-bottom: 1px solid #004080;
+    color: #004080;
+    text-align: left;
+}
+
+.estudiante:last-child {
+    border-bottom: none;
+}
+
+.estudiante p {
+    margin: 5px 0;
+}
+
+.estudiante button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #004080; /* Color azul oscuro UMG */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.estudiante button:hover {
+    background-color: #002060; /* Color azul más oscuro */
+}
